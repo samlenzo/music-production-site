@@ -79,14 +79,19 @@ section {
 }
 
 .section-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  display: -webkit-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-justify-content: center;
+  -ms-flex-wrap:wrap;
+  flex-wrap:wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   max-width:900px;
   margin: 20px auto 0px auto;
-  flex-wrap:wrap;
 }
 
 .section-heading {
