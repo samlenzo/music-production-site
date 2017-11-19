@@ -27,12 +27,12 @@ header {
   border-bottom: 1px solid #333333;
 }
 
-.jumptarget::before {
+/*.jumptarget::before {
   content:"";
   display:block;
   height:84px;
   margin:-84px 0 0;
-}
+}*/
 
 nav {
   margin:0px 10px 5px 10px;
