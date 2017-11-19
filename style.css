@@ -75,12 +75,14 @@ nav ul li a:hover {
 }
 
 section {
-  margin-top:60px;
+  margin-top:30px;
 }
 
 .section-content {
   display: flex;
+  display: -webkit-flex;
   justify-content: center;
+  -webkit-justify-content: center;
   align-items: center;
   max-width:900px;
   margin: 20px auto 0px auto;
