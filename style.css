@@ -7,13 +7,13 @@ body {
 }
 
 h1 {
-  margin-top: 3px;
-  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: -5px;
 }
 
 h1 a {
   text-decoration: none;
-  color: #333333
+  color: #cc5500
 }  
 
 h2 {
@@ -23,7 +23,7 @@ h2 {
 h3 {
   font-size: 2em;
   margin-top: 10px;
-  margin-bottom: 10px
+  margin-bottom: 10px;
 }
 
 header {
@@ -38,12 +38,12 @@ header {
 .jumptarget::before {
   content:"";
   display:block;
-  height:84px;
-  margin:-84px 0 0;
+  height:80px;
+  margin:-80px 0 0;
 }
 
 nav {
-  margin:0px 10px 5px 10px;
+  margin:0px 10px 0px 10px;
 }
 
 nav ul {
@@ -56,6 +56,7 @@ nav ul {
 nav ul li { 
   display: inline;
   padding: 0px 6px 0px 6px;
+  font-size: 1.3em;
 }
 
 nav ul li a {
@@ -68,7 +69,7 @@ nav ul li a:hover {
 }
 
 #content {
-  margin-top:84px;
+  margin-top:80px;
 }
 
 .top-image {
@@ -79,7 +80,7 @@ nav ul li a:hover {
   display: flex;
   align-items: center;
   justify-content:center;
-  min-height:400px;
+  min-height:425px;
   color: white;
   padding:0px;
   text-align:center;
